@@ -1,3 +1,59 @@
+/* --- Institucionalidad: Lectura Fácil y Accesibilidad --- */
+.institucionalidad-section {
+    background: #fff;
+    color: #111;
+    max-width: 900px;
+    width: 66vw;
+    margin: 2em auto;
+    padding: 2em 2em 2em 2em;
+    border-radius: 12px;
+    box-shadow: 0 2px 16px 0 rgba(0,0,0,0.06);
+}
+.institucionalidad-article {
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 1.7;
+    letter-spacing: 0.01em;
+}
+.section-title {
+    font-size: 2rem;
+    color: #003da5;
+    margin-bottom: 1em;
+    font-weight: 700;
+    line-height: 1.2;
+}
+.section-lead {
+    font-size: 1.2rem;
+    margin-bottom: 1.2em;
+    font-weight: 600;
+}
+.section-paragraph {
+    margin-bottom: 1.2em;
+    font-size: 18px;
+    color: #111;
+}
+.section-subtitle {
+    font-size: 1.33rem;
+    color: #111;
+    margin-top: 2em;
+    margin-bottom: 0.7em;
+    font-weight: 700;
+}
+.section-list {
+    margin-bottom: 1.2em;
+    margin-left: 1.5em;
+    font-size: 18px;
+}
+.section-list li {
+    margin-bottom: 0.8em;
+    line-height: 1.6;
+}
+@media (max-width: 900px) {
+    .institucionalidad-section {
+        width: 98vw;
+        padding: 1em;
+    }
+}
 /* Espaciado y estilo para las líneas de la frase del hero */
 .hero-left-text h1 {
     /* removed empty rule */
@@ -87,6 +143,8 @@
     background: #fff !important;
     border-radius: 0.25em;
     font-weight: bold;
+    text-shadow: none !important;
+    opacity: 1 !important;
 }
 .nav-menu a:focus {
     color: #003da5;

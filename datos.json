@@ -1,0 +1,459 @@
+{
+  "PlanNacionalAccesibilidad": {
+    "Componentes": [
+      {
+        "Componente": "Institucionalidad",
+        "ObjetivosEstrategicos": [
+          "Fortalecer la gobernanza de las políticas de discapacidad",
+          "Garantizar la transversalidad institucional",
+          "Promover la articulación interinstitucional"
+        ],
+        "ObjetivosEspecificos": [
+          "Crear mecanismos de coordinación entre organismos del Estado",
+          "Fortalecer unidades técnicas en discapacidad",
+          "Desarrollar normativa interna con perspectiva de accesibilidad"
+        ],
+        "Acciones": [
+          "Conformación de comités interinstitucionales",
+          "Capacitación de funcionarios en el enfoque de derechos",
+          "Revisión de reglamentaciones institucionales"
+        ],
+        "IndicadoresResultado": [
+          "Número de organismos con unidades de discapacidad",
+          "Cantidad de capacitaciones realizadas",
+          "Normas institucionales revisadas con enfoque de accesibilidad"
+        ],
+        "Avances": [
+          "Se conformaron 3 comités técnicos en 2024",
+          "Capacitados 200 funcionarios en 2023",
+          "5 reglamentos institucionales revisados"
+        ],
+        "Metas": [
+          "10 organismos con comités de discapacidad al 2026",
+          "Capacitar 1000 funcionarios en 3 años",
+          "Revisar la normativa en 15 organismos"
+        ],
+        "Plazos": [
+          "2024-2026",
+          "Anual",
+          "Primer semestre de cada año"
+        ],
+        "IndicadoresImpacto": [
+          "Mayor presencia de la temática en políticas públicas",
+          "Reducción de barreras institucionales",
+          "Aumento en la ejecución de medidas inclusivas"
+        ],
+        "Responsables": [
+          "MIDES",
+          "OPP",
+          "Ministerio de Educación y Cultura"
+        ]
+      },
+      {
+        "Componente": "Datos y Estadísticas",
+        "ObjetivosEstrategicos": [
+          "Desarrollar sistemas integrales de información",
+          "Mejorar la recolección y análisis de datos",
+          "Garantizar datos desagregados y accesibles"
+        ],
+        "ObjetivosEspecificos": [
+          "Incorporar preguntas de discapacidad en encuestas nacionales",
+          "Crear un repositorio unificado de datos",
+          "Capacitar en producción de datos accesibles"
+        ],
+        "Acciones": [
+          "Ajustar los instrumentos de encuesta nacional",
+          "Diseñar una plataforma interinstitucional de datos",
+          "Realizar jornadas de formación en datos inclusivos"
+        ],
+        "IndicadoresResultado": [
+          "Número de encuestas con datos sobre discapacidad",
+          "Cantidad de organismos que aportan al repositorio",
+          "Número de capacitaciones realizadas"
+        ],
+        "Avances": [
+          "Se incluyeron preguntas de discapacidad en la ECH 2023",
+          "En desarrollo la plataforma de datos abiertos",
+          "3 talleres realizados en 2024"
+        ],
+        "Metas": [
+          "5 encuestas oficiales con desagregación por discapacidad",
+          "Plataforma activa con datos de 10 organismos",
+          "Formar a 300 técnicos en 3 años"
+        ],
+        "Plazos": [
+          "2024-2027",
+          "Anual",
+          "Segundo semestre de cada año"
+        ],
+        "IndicadoresImpacto": [
+          "Mayor disponibilidad de datos confiables",
+          "Uso de datos para diseño de políticas públicas",
+          "Aumento en la transparencia institucional"
+        ],
+        "Responsables": [
+          "INE",
+          "MIDES",
+          "AGESIC"
+        ]
+      },
+      {
+        "Componente": "Accesibilidad",
+        "ObjetivosEstrategicos": [
+          "Promover entornos físicos, virtuales y comunicacionales accesibles",
+          "Eliminar barreras en servicios y transporte",
+          "Fomentar el diseño universal"
+        ],
+        "ObjetivosEspecificos": [
+          "Revisar normativas de accesibilidad edilicia",
+          "Implementar tecnología de asistencia en espacios públicos",
+          "Mejorar la accesibilidad web institucional"
+        ],
+        "Acciones": [
+          "Auditorías de accesibilidad en oficinas públicas",
+          "Instalación de señalética táctil y sonora",
+          "Capacitación en desarrollo web accesible"
+        ],
+        "IndicadoresResultado": [
+          "Cantidad de edificios públicos accesibles",
+          "Número de instalaciones con señalética adaptada",
+          "Sitios web auditados con criterios WCAG"
+        ],
+        "Avances": [
+          "20 edificios adaptados en 2023",
+          "Instaladas señaléticas en 10 terminales",
+          "30 sitios web revisados"
+        ],
+        "Metas": [
+          "100% de oficinas públicas accesibles al 2030",
+          "Señalética en 100 espacios públicos",
+          "Cumplimiento de WCAG AA en todos los portales estatales"
+        ],
+        "Plazos": [
+          "2025-2030",
+          "Anual",
+          "Continuo"
+        ],
+        "IndicadoresImpacto": [
+          "Incremento en el acceso a servicios",
+          "Reducción de quejas por inaccesibilidad",
+          "Mayor participación ciudadana"
+        ],
+        "Responsables": [
+          "MTOP",
+          "AGESIC",
+          "MIDES"
+        ]
+      },
+      {
+        "Componente": "Educación",
+        "ObjetivosEstrategicos": [
+          "Garantizar el derecho a la educación inclusiva",
+          "Mejorar la accesibilidad en todos los niveles educativos",
+          "Formar docentes en inclusión"
+        ],
+        "ObjetivosEspecificos": [
+          "Implementar apoyos en el aula",
+          "Adaptar materiales educativos",
+          "Actualizar programas de formación docente"
+        ],
+        "Acciones": [
+          "Designar acompañantes pedagógicos",
+          "Producir libros en braille y Lectura Fácil",
+          "Incluir accesibilidad en programas de magisterio"
+        ]
+      },
+      {
+        "Componente": "Salud, Habilitación y Rehabilitación",
+        "ObjetivosEstrategicos": [
+          "Garantizar el acceso universal a servicios de salud inclusivos",
+          "Mejorar la disponibilidad de servicios de rehabilitación",
+          "Promover modelos de atención con enfoque de derechos"
+        ],
+        "ObjetivosEspecificos": [
+          "Fortalecer equipos interdisciplinarios",
+          "Desarrollar redes de rehabilitación territorial",
+          "Implementar protocolos accesibles de atención"
+        ],
+        "Acciones": [
+          "Capacitación de personal médico y de enfermería",
+          "Creación de centros de referencia regionales",
+          "Producción de materiales de salud en formatos accesibles"
+        ],
+        "IndicadoresResultado": [
+          "Número de centros con servicios de rehabilitación",
+          "Cantidad de profesionales capacitados",
+          "Protocolos accesibles implementados"
+        ],
+        "Avances": [
+          "5 centros regionales operativos",
+          "400 trabajadores de la salud capacitados",
+          "Protocolos adaptados en 3 departamentos"
+        ],
+        "Metas": [
+          "Cobertura nacional de rehabilitación al 2027",
+          "Capacitar a 1000 trabajadores en 3 años",
+          "Protocolos en todo el sistema de salud público"
+        ],
+        "Plazos": [
+          "2024-2027",
+          "Anual",
+          "Implementación progresiva"
+        ],
+        "IndicadoresImpacto": [
+          "Mejora en la calidad de vida",
+          "Disminución de barreras en el acceso a la salud",
+          "Fortalecimiento de redes comunitarias"
+        ],
+        "Responsables": [
+          "MSP",
+          "FNR",
+          "ASSE"
+        ]
+      },
+      {
+        "Componente": "Trabajo, Empleo y Seguridad Social",
+        "ObjetivosEstrategicos": [
+          "Fomentar la inclusión laboral",
+          "Eliminar barreras en el acceso al empleo",
+          "Promover el trabajo decente y protegido"
+        ],
+        "ObjetivosEspecificos": [
+          "Fortalecer políticas de empleo inclusivo",
+          "Impulsar cupos laborales en el sector público y privado",
+          "Desarrollar formación profesional accesible"
+        ],
+        "Acciones": [
+          "Campañas de sensibilización para empleadores",
+          "Seguimiento del cumplimiento de la Ley 19.691",
+          "Adaptación de programas de capacitación laboral"
+        ],
+        "IndicadoresResultado": [
+          "Número de personas con discapacidad empleadas",
+          "Cantidad de empresas adheridas al cupo",
+          "Cursos de formación profesional accesibles"
+        ],
+        "Avances": [
+          "100 empresas incorporaron personas con discapacidad",
+          "30% de cumplimiento del cupo en el Estado",
+          "15 cursos adaptados en INEFOP"
+        ],
+        "Metas": [
+          "50% de cumplimiento del cupo en 2025",
+          "300 nuevas inserciones laborales anuales",
+          "100% de programas adaptados en 3 años"
+        ],
+        "Plazos": [
+          "2024-2026",
+          "Anual",
+          "Progresivo"
+        ],
+        "IndicadoresImpacto": [
+          "Reducción del desempleo",
+          "Autonomía económica",
+          "Mayor estabilidad laboral"
+        ],
+        "Responsables": [
+          "MTSS",
+          "INEFOP",
+          "MIDES"
+        ]
+      },
+      {
+        "Componente": "Vivienda, Autonomía y Vida Independiente",
+        "ObjetivosEstrategicos": [
+          "Promover el derecho a la vivienda adecuada",
+          "Fortalecer la vida independiente",
+          "Eliminar barreras en el hábitat y entorno"
+        ],
+        "ObjetivosEspecificos": [
+          "Adaptar programas habitacionales",
+          "Fomentar servicios de asistencia personal",
+          "Apoyar modalidades de convivencia comunitaria"
+        ],
+        "Acciones": [
+          "Asignación de subsidios con criterios de accesibilidad",
+          "Capacitación de asistentes personales",
+          "Desarrollo de experiencias piloto de viviendas inclusivas"
+        ],
+        "IndicadoresResultado": [
+          "Cantidad de viviendas accesibles entregadas",
+          "Número de asistentes personales en actividad",
+          "Viviendas comunitarias habilitadas"
+        ],
+        "Avances": [
+          "150 viviendas accesibles entregadas",
+          "200 asistentes capacitados",
+          "2 experiencias piloto en funcionamiento"
+        ],
+        "Metas": [
+          "500 viviendas al 2027",
+          "500 asistentes personales activos",
+          "10 proyectos de vida independiente apoyados"
+        ],
+        "Plazos": [
+          "2024-2027",
+          "Semestral",
+          "Evaluación anual"
+        ],
+        "IndicadoresImpacto": [
+          "Mayor autonomía",
+          "Desinstitucionalización",
+          "Inclusión territorial"
+        ],
+        "Responsables": [
+          "MVOT",
+          "MIDES",
+          "Gobiernos Departamentales"
+        ]
+      },
+      {
+        "Componente": "Acceso a la Justicia",
+        "ObjetivosEstrategicos": [
+          "Garantizar el acceso equitativo a la justicia",
+          "Eliminar barreras procedimentales",
+          "Capacitar operadores judiciales"
+        ],
+        "ObjetivosEspecificos": [
+          "Implementar ajustes razonables en procesos judiciales",
+          "Traducir información legal a Lectura Fácil",
+          "Fortalecer defensorías especializadas"
+        ],
+        "Acciones": [
+          "Diseñar protocolos accesibles de atención",
+          "Elaborar materiales de derechos en formatos accesibles",
+          "Formar operadores en derechos de las personas con discapacidad"
+        ],
+        "IndicadoresResultado": [
+          "Protocolo implementado en juzgados",
+          "Cantidad de materiales en Lectura Fácil",
+          "Operadores capacitados"
+        ],
+        "Avances": [
+          "Protocolo piloto en 5 sedes judiciales",
+          "Distribuidos 3000 materiales accesibles",
+          "200 operadores capacitados"
+        ],
+        "Metas": [
+          "Protocolos en todos los juzgados civiles al 2026",
+          "5000 materiales distribuidos",
+          "1000 operadores formados"
+        ],
+        "Plazos": [
+          "2024-2026",
+          "Trimestral",
+          "Permanente"
+        ],
+        "IndicadoresImpacto": [
+          "Mayor confianza en el sistema judicial",
+          "Reducción de discriminación institucional",
+          "Justicia con enfoque de derechos"
+        ],
+        "Responsables": [
+          "Poder Judicial",
+          "MIDES",
+          "Defensoría Pública"
+        ]
+      },
+      {
+        "Componente": "Cultura, Recreación y Deportes",
+        "ObjetivosEstrategicos": [
+          "Garantizar el acceso a la vida cultural",
+          "Fomentar la participación en actividades recreativas",
+          "Promover el deporte inclusivo"
+        ],
+        "ObjetivosEspecificos": [
+          "Incorporar accesibilidad en eventos culturales",
+          "Apoyar clubes y espacios comunitarios inclusivos",
+          "Impulsar deportes adaptados"
+        ],
+        "Acciones": [
+          "Contratación de intérpretes de lengua de señas en eventos",
+          "Subsidios a iniciativas deportivas accesibles",
+          "Promoción del arte inclusivo"
+        ],
+        "IndicadoresResultado": [
+          "Eventos accesibles realizados",
+          "Proyectos culturales apoyados",
+          "Clubes deportivos inclusivos registrados"
+        ],
+        "Avances": [
+          "30 eventos culturales accesibles en 2024",
+          "20 clubes con apoyo técnico y financiero",
+          "Red de artistas con discapacidad en formación"
+        ],
+        "Metas": [
+          "100 eventos por año con criterios de accesibilidad",
+          "Ampliar a 100 clubes al 2026",
+          "Programa nacional de arte inclusivo"
+        ],
+        "Plazos": [
+          "Anual",
+          "2024-2026",
+          "Progresivo"
+        ],
+        "IndicadoresImpacto": [
+          "Incremento en participación cultural",
+          "Mayor inclusión comunitaria",
+          "Desarrollo de talentos diversos"
+        ],
+        "Responsables": [
+          "MEC",
+          "MIDES",
+          "Secretaría Nacional del Deporte"
+        ]
+      },
+      {
+        "Componente": "Toma de Conciencia",
+        "ObjetivosEstrategicos": [
+          "Sensibilizar a la sociedad sobre discapacidad",
+          "Erradicar estigmas y prejuicios",
+          "Promover la imagen positiva de las personas con discapacidad"
+        ],
+        "ObjetivosEspecificos": [
+          "Desarrollar campañas de comunicación inclusiva",
+          "Incorporar perspectiva de derechos en medios",
+          "Apoyar experiencias lideradas por personas con discapacidad"
+        ],
+        "Acciones": [
+          "Diseño de campañas multimediales",
+          "Alianzas con medios de comunicación",
+          "Financiamiento a colectivos y asociaciones"
+        ],
+        "IndicadoresResultado": [
+          "Campañas emitidas anualmente",
+          "Cobertura mediática con enfoque inclusivo",
+          "Proyectos liderados por personas con discapacidad apoyados"
+        ],
+        "Avances": [
+          "3 campañas nacionales en 2023",
+          "20 notas periodísticas inclusivas",
+          "10 colectivos apoyados"
+        ],
+        "Metas": [
+          "1 campaña por trimestre hasta 2027",
+          "Capacitar a 200 comunicadores",
+          "Apoyar 50 proyectos de toma de conciencia"
+        ],
+        "Plazos": [
+          "Anual",
+          "Continuo",
+          "2024-2027"
+        ],
+        "IndicadoresImpacto": [
+          "Cambio de percepción social",
+          "Mayor respeto a la diversidad",
+          "Reducción del capacitismo"
+        ],
+        "Responsables": [
+          "MIDES",
+          "INAU",
+          "Organizaciones de la sociedad civil"
+        ]
+      }
+    ]
+  }
+}
+
+        
+
