@@ -1,0 +1,880 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plan Nacional por la Accesibilidad y los Derechos de las Personas con Discapacidad</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Skip link para accesibilidad -->
+    <a href="#main-content" class="skip-link">Saltar al contenido principal</a>
+
+    <!-- Navegación -->
+    <nav class="navbar" role="navigation" aria-label="Navegación principal">
+        <div class="nav-container">
+            <a href="#" class="logo" onclick="showHome()">INADIS</a>
+            <div class="nav-spacer"></div>
+            <ul class="nav-menu" role="menubar">
+                <li role="menuitem"><a href="#" onclick="showHome()">Inicio</a></li>
+                <li role="menuitem"><a href="#plan">Plan</a></li>
+                <li role="menuitem"><a href="#components">Componentes</a></li>
+                <li role="menuitem"><a href="#indicators">Indicadores</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Página de inicio -->
+    <main id="main-content" class="home-page">
+        <!-- Sección Hero con fondo geométrico -->
+        <section class="hero" role="banner">
+            <div class="hero-svg-left">
+                <svg viewBox="0 0 400 400" width="320" height="320" aria-hidden="true" focusable="false" class="hero-svg-bg">
+                    <rect x="0" y="0" width="133" height="133" fill="#e74c3c"/>
+                    <rect x="133" y="0" width="133" height="133" fill="#f6e9d7"/>
+                    <rect x="266" y="0" width="134" height="133" fill="#003da5"/>
+                    <rect x="0" y="133" width="133" height="133" fill="#f6e9d7"/>
+                    <circle cx="66" cy="200" r="66" fill="#e74c3c"/>
+                    <rect x="133" y="133" width="133" height="133" fill="#ffd24a"/>
+                    <rect x="266" y="133" width="134" height="133" fill="#111"/>
+                    <rect x="0" y="266" width="133" height="134" fill="#ffd24a"/>
+                    <rect x="133" y="266" width="133" height="134" fill="#003da5"/>
+                    <rect x="266" y="266" width="134" height="134" fill="#e74c3c"/>
+                    <!-- Semicírculos y detalles -->
+                    <path d="M133,0 A66,66 0 0,1 199,66 L133,66 Z" fill="#111"/>
+                    <path d="M400,133 A66,66 0 0,1 334,199 L400,199 Z" fill="#003da5"/>
+                    <path d="M266,400 A66,66 0 0,1 332,334 L332,400 Z" fill="#111"/>
+                    <path d="M0,266 A66,66 0 0,1 66,332 L0,332 Z" fill="#f6e9d7"/>
+                </svg>
+            </div>
+            <div class="hero-content fade-in hero-left-text">
+                <h1>
+                    Plan Nacional por la Accesibilidad y los Derechos de las Personas con Discapacidad
+                </h1>
+                <a href="#components" class="cta-button" onclick="scrollToComponents()">Explorar Componentes</a>
+            </div>
+        </section>
+
+
+        <!-- Sección de componentes -->
+        <section id="components" class="components-section">
+            <div class="container">
+                <h2 class="section-title">Componentes del Plan</h2>
+                <div class="components-grid">
+                    <div class="component-card fade-in" onclick="showComponent('institucionalidad')" tabindex="0" role="button" aria-label="Ver componente de Institucionalidad">
+                        <div class="card-icon">🏛️</div>
+                        <h3>Institucionalidad</h3>
+                        <p>Fortalecimiento del marco institucional y normativo para la protección de los derechos de las personas con discapacidad.</p>
+                    </div>
+
+                    <div class="component-card fade-in" onclick="showComponent('datos')" tabindex="0" role="button" aria-label="Ver componente de Datos y Estadísticas">
+                        <div class="card-icon">📊</div>
+                        <h3>Datos y Estadísticas</h3>
+                        <p>Sistemas de información y estadísticas para la toma de decisiones basada en evidencia.</p>
+                    </div>
+
+                    <div class="component-card fade-in" onclick="showComponent('accesibilidad')" tabindex="0" role="button" aria-label="Ver componente de Accesibilidad">
+                        <div class="card-icon">♿</div>
+                        <h3>Accesibilidad</h3>
+                        <p>Eliminación de barreras físicas, comunicacionales y actitudinales en todos los entornos.</p>
+                    </div>
+
+                    <div class="component-card fade-in" onclick="showComponent('educacion')" tabindex="0" role="button" aria-label="Ver componente de Educación">
+                        <div class="card-icon">📚</div>
+                        <h3>Educación</h3>
+                        <p>Educación inclusiva y de calidad para todas las personas con discapacidad.</p>
+                    </div>
+
+                    <div class="component-card fade-in" onclick="showComponent('salud')" tabindex="0" role="button" aria-label="Ver componente de Salud">
+                        <div class="card-icon">🏥</div>
+                        <h3>Salud, Habilitación y Rehabilitación</h3>
+                        <p>Acceso universal a servicios de salud, habilitación y rehabilitación integral.</p>
+                    </div>
+
+                    <div class="component-card fade-in" onclick="showComponent('trabajo')" tabindex="0" role="button" aria-label="Ver componente de Trabajo">
+                        <div class="card-icon">💼</div>
+                        <h3>Trabajo, Empleo y Seguridad Social</h3>
+                        <p>Promoción del empleo inclusivo y acceso a la seguridad social.</p>
+                    </div>
+
+                    <div class="component-card fade-in" onclick="showComponent('vivienda')" tabindex="0" role="button" aria-label="Ver componente de Vivienda">
+                        <div class="card-icon">🏠</div>
+                        <h3>Vivienda, Autonomía y Vida Independiente</h3>
+                        <p>Acceso a vivienda adecuada y promoción de la vida independiente.</p>
+                    </div>
+
+                    <div class="component-card fade-in" onclick="showComponent('justicia')" tabindex="0" role="button" aria-label="Ver componente de Justicia">
+                        <div class="card-icon">⚖️</div>
+                        <h3>Acceso a la Justicia</h3>
+                        <p>Garantía del acceso efectivo al sistema de justicia en igualdad de condiciones.</p>
+                    </div>
+
+                    <div class="component-card fade-in" onclick="showComponent('cultura')" tabindex="0" role="button" aria-label="Ver componente de Cultura">
+                        <div class="card-icon">🎭</div>
+                        <h3>Cultura, Recreación y Deportes</h3>
+                        <p>Participación plena en la vida cultural, recreativa y deportiva.</p>
+                    </div>
+
+                    <div class="component-card fade-in" onclick="showComponent('conciencia')" tabindex="0" role="button" aria-label="Ver componente de Toma de Conciencia">
+                        <div class="card-icon">🧠</div>
+                        <h3>Toma de Conciencia</h3>
+                        <p>Sensibilización y cambio de actitudes hacia las personas con discapacidad.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+ 
+    <!-- Página de detalle de acción -->
+    <div id="certificacion-edificios-page" class="action-page">
+        <div class="action-header">
+            <div class="container">
+                <h1>Programa de Certificación de Accesibilidad para Edificios Públicos</h1>
+                <p>Implementación de un sistema integral de certificación y mejora de accesibilidad</p>
+            </div>
+        </div>
+
+        <div class="action-content">
+            <div class="container">
+                <button class="back-button" onclick="showComponent('accesibilidad')">← Volver a Accesibilidad</button>
+                
+                <div class="action-details">
+                    <div class="detail-card">
+                        <h3>Objetivos de la Acción</h3>
+                        <ul>
+                            <li>Establecer un sistema nacional de certificación de accesibilidad</li>
+                            <li>Mejorar la accesibilidad física en edificios públicos</li>
+                            <li>Crear un registro nacional de edificios accesibles</li>
+                            <li>Capacitar a profesionales en diseño universal</li>
+                            <li>Promover la cultura de accesibilidad en la administración pública</li>
+                        </ul>
+                    </div>
+
+                    <div class="detail-card">
+                        <h3>Problema que Aborda</h3>
+                        <p>Muchos edificios públicos no cumplen con los estándares de accesibilidad, limitando el acceso de personas con discapacidad a servicios esenciales del Estado. Existe una falta de sistematización en la evaluación y mejora de la accesibilidad arquitectónica.</p>
+                    </div>
+
+                    <div class="detail-card">
+                        <h3>Causas del Problema</h3>
+                        <ul>
+                            <li>Falta de aplicación efectiva de normativas de accesibilidad</li>
+                            <li>Construcciones previas a la legislación vigente</li>
+                            <li>Insuficiente capacitación en diseño universal</li>
+                            <li>Ausencia de un sistema de monitoreo y certificación</li>
+                            <li>Limitados recursos destinados a adaptaciones</li>
+                        </ul>
+                    </div>
+
+                    <div class="detail-card">
+                        <h3>Consecuencias de No Abordar el Problema</h3>
+                        <ul>
+                            <li>Exclusión de personas con discapacidad de servicios públicos</li>
+                            <li>Violación de derechos fundamentales</li>
+                            <li>Perpetuación de desigualdades sociales</li>
+                            <li>Incumplimiento de compromisos internacionales</li>
+                            <li>Pérdida de oportunidades de desarrollo inclusivo</li>
+                        </ul>
+                    </div>
+
+                    <div class="detail-card">
+                        <h3>Cronograma de Ejecución</h3>
+                        <ul>
+                            <li><strong>2025:</strong> Desarrollo del sistema de certificación y capacitación inicial</li>
+                            <li><strong>2026:</strong> Implementación piloto en 20 edificios públicos</li>
+                            <li><strong>2027:</strong> Expansión a 100 edificios adicionales</li>
+                            <li><strong>2028:</strong> Certificación masiva y evaluación de resultados</li>
+                        </ul>
+                    </div>
+
+                    <div class="detail-card">
+                        <h3>Indicadores de Seguimiento</h3>
+                        <ul>
+                            <li>Número de edificios evaluados mensualmente</li>
+                            <li>Porcentaje de edificios que obtienen certificación</li>
+                            <li>Número de profesionales capacitados</li>
+                            <li>Inversión destinada a mejoras de accesibilidad</li>
+                            <li>Satisfacción de usuarios con discapacidad</li>
+                            <li>Tiempo promedio para obtener certificación</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+    // Resalta el item activo del menú según la sección visible
+    function setActiveMenu() {
+        const links = document.querySelectorAll('.nav-menu a');
+        links.forEach(link => link.classList.remove('active'));
+        const hash = window.location.hash;
+        if (!hash || hash === "#" || hash === "#home") {
+            links[0].classList.add('active');
+        } else if (hash === "#plan") {
+            links[1].classList.add('active');
+        } else if (hash === "#components") {
+            links[2].classList.add('active');
+        } else if (hash === "#indicators") {
+            links[3].classList.add('active');
+        }
+    }
+    window.addEventListener('hashchange', setActiveMenu);
+    window.addEventListener('DOMContentLoaded', setActiveMenu);
+        // Datos de componentes
+        const componentsData = {
+            institucionalidad: {
+                title: "Institucionalidad",
+                description: "Fortalecimiento del marco institucional para la protección de derechos",
+                intro: "El componente de Institucionalidad busca fortalecer el marco institucional y normativo para la protección efectiva de los derechos de las personas con discapacidad. Incluye el desarrollo de políticas públicas, la coordinación interinstitucional y el fortalecimiento de los organismos rectores.",
+                normative: [
+                    "Convención sobre los Derechos de las Personas con Discapacidad",
+                    "Ley Nacional de Discapacidad N° 18.651",
+                    "Decreto de creación de CONADIS",
+                    "Normativas de accesibilidad institucional"
+                ],
+                political: [
+                    "Política Nacional de Discapacidad",
+                    "Plan Nacional de Derechos Humanos",
+                    "Estrategia de Modernización del Estado",
+                    "Compromisos internacionales"
+                ]
+            },
+            datos: {
+                title: "Datos y Estadísticas",
+                description: "Sistemas de información para la toma de decisiones basada en evidencia",
+                intro: "Este componente se enfoca en desarrollar sistemas robustos de información y estadísticas sobre discapacidad para fundamentar políticas públicas efectivas. Incluye el registro, análisis y difusión de datos relevantes para la planificación y evaluación de intervenciones.",
+                normative: [
+                    "Ley de Protección de Datos Personales N° 18.331",
+                    "Ley de Acceso a la Información Pública N° 18.381",
+                    "Normas del Instituto Nacional de Estadística",
+                    "Reglamentos de registro sanitario"
+                ],
+                political: [
+                    "Agenda Digital Uruguay",
+                    "Plan Nacional de Datos Abiertos",
+                    "Estrategia de Gobierno Digital",
+                    "Política de Transparencia y Acceso a la Información"
+                ]
+            },
+            educacion: {
+                title: "Educación",
+                description: "Educación inclusiva y de calidad para todas las personas",
+                intro: "El componente de Educación promueve un sistema educativo inclusivo que garantice el derecho a la educación de calidad para todas las personas con discapacidad, desde la primera infancia hasta la educación superior, incluyendo formación técnica y profesional.",
+                normative: [
+                    "Ley General de Educación N° 18.437",
+                    "Convención sobre los Derechos de las Personas con Discapacidad",
+                    "Ley de Educación Inclusiva",
+                    "Normativas de accesibilidad educativa"
+                ],
+                political: [
+                    "Política Educativa Nacional",
+                    "Plan Nacional de Educación Inclusiva",
+                    "Estrategia Nacional de Primera Infancia",
+                    "Programa Nacional de Formación Docente"
+                ]
+            },
+            salud: {
+                title: "Salud, Habilitación y Rehabilitación",
+                description: "Acceso universal a servicios de salud integral",
+                intro: "Este componente garantiza el acceso universal a servicios de salud, habilitación y rehabilitación integral, promoviendo la autonomía y participación plena de las personas con discapacidad en la comunidad.",
+                normative: [
+                    "Ley del Sistema Nacional Integrado de Salud",
+                    "Convención sobre los Derechos de las Personas con Discapacidad",
+                    "Normativas de habilitación y rehabilitación",
+                    "Reglamentos de prestaciones de salud"
+                ],
+                political: [
+                    "Política Nacional de Salud",
+                    "Plan Nacional de Salud Mental",
+                    "Estrategia de Atención Primaria",
+                    "Programa Nacional de Rehabilitación"
+                ]
+            },
+            trabajo: {
+                title: "Trabajo, Empleo y Seguridad Social",
+                description: "Promoción del empleo inclusivo y protección social",
+                intro: "El componente de Trabajo se enfoca en promover la inserción laboral de personas con discapacidad, garantizar condiciones dignas de trabajo y asegurar el acceso a la seguridad social.",
+                normative: [
+                    "Ley de Empleo para Personas con Discapacidad",
+                    "Código del Trabajo",
+                    "Ley de Seguridad Social",
+                    "Normativas de inclusión laboral"
+                ],
+                political: [
+                    "Política Nacional de Empleo",
+                    "Plan Nacional de Inclusión Laboral",
+                    "Estrategia de Desarrollo Productivo",
+                    "Programa de Empleo Protegido"
+                ]
+            },
+            vivienda: {
+                title: "Vivienda, Autonomía y Vida Independiente",
+                description: "Acceso a vivienda adecuada y promoción de la autonomía",
+                intro: "Este componente promueve el acceso a vivienda adecuada y accesible, así como los apoyos necesarios para la vida independiente y la participación plena en la comunidad.",
+                normative: [
+                    "Ley Nacional de Vivienda",
+                    "Normativas de accesibilidad residencial",
+                    "Reglamentos de adaptación de viviendas",
+                    "Ley de Vida Independiente"
+                ],
+                political: [
+                    "Política Nacional de Vivienda",
+                    "Plan Nacional de Accesibilidad Residencial",
+                    "Estrategia de Desarrollo Urbano Sostenible",
+                    "Programa de Vida Independiente"
+                ]
+            },
+            justicia: {
+                title: "Acceso a la Justicia",
+                description: "Garantía del acceso efectivo al sistema de justicia",
+                intro: "El componente de Acceso a la Justicia asegura que las personas con discapacidad puedan acceder al sistema judicial en igualdad de condiciones, con las adaptaciones y apoyos necesarios.",
+                normative: [
+                    "Código del Proceso Penal",
+                    "Ley Orgánica del Poder Judicial",
+                    "Normativas de accesibilidad judicial",
+                    "Reglamentos de apoyo procesal"
+                ],
+                political: [
+                    "Política de Modernización del Sistema Judicial",
+                    "Plan Nacional de Acceso a la Justicia",
+                    "Estrategia de Derechos Humanos",
+                    "Programa de Asistencia Jurídica"
+                ]
+            },
+            cultura: {
+                title: "Cultura, Recreación y Deportes",
+                description: "Participación plena en la vida cultural y deportiva",
+                intro: "Este componente promueve la participación plena de las personas con discapacidad en actividades culturales, recreativas y deportivas, garantizando la accesibilidad y la inclusión.",
+                normative: [
+                    "Ley Nacional de Cultura",
+                    "Ley del Deporte",
+                    "Normativas de accesibilidad cultural",
+                    "Reglamentos de deporte adaptado"
+                ],
+                political: [
+                    "Política Nacional de Cultura",
+                    "Plan Nacional de Deporte",
+                    "Estrategia de Desarrollo Cultural",
+                    "Programa de Deporte Inclusivo"
+                ]
+            },
+            conciencia: {
+                title: "Toma de Conciencia",
+                description: "Sensibilización y cambio de actitudes hacia la discapacidad",
+                intro: "El componente de Toma de Conciencia busca promover cambios de actitudes y percepciones sobre la discapacidad, fomentando una cultura de respeto, inclusión y reconocimiento de derechos.",
+                normative: [
+                    "Ley contra la Discriminación",
+                    "Normativas de sensibilización pública",
+                    "Reglamentos de comunicación inclusiva",
+                    "Directrices de representación mediática"
+                ],
+                political: [
+                    "Política Nacional de Comunicación",
+                    "Plan Nacional de Sensibilización",
+                    "Estrategia de Educación en Derechos",
+                    "Programa de Medios Inclusivos"
+                ]
+            }
+        };
+
+        // Datos de acciones específicas
+        const actionsData = {
+            'accesibilidad-web': {
+                title: "Auditoría y Mejora de Accesibilidad Web en Organismos Públicos",
+                objectives: [
+                    "Implementar estándares WCAG 2.1 en todos los sitios web gubernamentales",
+                    "Capacitar a desarrolladores en accesibilidad web",
+                    "Crear un sistema de monitoreo continuo",
+                    "Establecer un protocolo de certificación web",
+                    "Promover el uso de tecnologías asistivas"
+                ],
+                problem: "Los sitios web gubernamentales presentan barreras de accesibilidad que impiden a las personas con discapacidad acceder a servicios digitales del Estado, violando principios de igualdad y no discriminación.",
+                causes: [
+                    "Falta de conocimiento sobre estándares de accesibilidad web",
+                    "Ausencia de protocolos de desarrollo inclusivo",
+                    "Limitada capacitación en diseño universal digital",
+                    "Carencia de herramientas de evaluación automática",
+                    "Insuficiente participación de usuarios con discapacidad en el diseño"
+                ],
+                consequences: [
+                    "Exclusión digital de personas con discapacidad",
+                    "Violación del derecho de acceso a la información",
+                    "Pérdida de eficiencia en trámites gubernamentales",
+                    "Incumplimiento de normativas internacionales",
+                    "Perpetuación de la brecha digital"
+                ],
+                timeline: [
+                    "2025: Evaluación inicial y desarrollo de protocolos",
+                    "2026: Capacitación masiva y mejoras en sitios prioritarios",
+                    "2027: Implementación completa y certificación final"
+                ],
+                indicators: [
+                    "Porcentaje de sitios web que cumplen WCAG 2.1 AA",
+                    "Número de desarrolladores capacitados",
+                    "Tiempo promedio de carga con tecnologías asistivas",
+                    "Satisfacción de usuarios con discapacidad",
+                    "Número de barreras identificadas y corregidas"
+                ]
+            },
+            'transporte-accesible': {
+                title: "Programa de Renovación y Adaptación de Flota de Transporte Público",
+                objectives: [
+                    "Renovar y adaptar el 80% de la flota de transporte público",
+                    "Capacitar a conductores en atención a personas con discapacidad",
+                    "Implementar sistemas de información accesible",
+                    "Mejorar la infraestructura de paradas",
+                    "Crear rutas preferenciales accesibles"
+                ],
+                problem: "El sistema de transporte público presenta importantes barreras de accesibilidad que limitan la movilidad independiente de las personas con discapacidad, afectando su participación social y laboral.",
+                causes: [
+                    "Flota antigua sin adaptaciones de accesibilidad",
+                    "Falta de capacitación del personal de transporte",
+                    "Infraestructura de paradas inadecuada",
+                    "Ausencia de sistemas de información accesible",
+                    "Limitados recursos para renovación de flota"
+                ],
+                consequences: [
+                    "Aislamiento social de personas con discapacidad",
+                    "Limitación de oportunidades laborales y educativas",
+                    "Dependencia de terceros para movilidad",
+                    "Violación del derecho a la movilidad",
+                    "Exclusión de la participación comunitaria"
+                ],
+                timeline: [
+                    "2025: Evaluación de flota y diseño de adaptaciones",
+                    "2026-2027: Renovación progresiva de unidades",
+                    "2028-2029: Finalización y evaluación del programa"
+                ],
+                indicators: [
+                    "Porcentaje de unidades adaptadas en operación",
+                    "Número de conductores capacitados",
+                    "Satisfacción de usuarios con discapacidad",
+                    "Tiempo de respuesta en solicitudes de apoyo",
+                    "Número de viajes realizados por personas con discapacidad"
+                ]
+            }
+        };
+
+        // Funciones de navegación
+        function showHome() {
+            // Ocultar todas las páginas
+            document.querySelectorAll('.component-page, .action-page').forEach(page => {
+                page.classList.remove('active');
+            });
+            
+            // Mostrar página principal
+            document.querySelector('.home-page').style.display = 'block';
+            
+            // Scroll to top
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+
+        function showComponent(componentKey) {
+            const componentData = componentsData[componentKey];
+            if (!componentData) return;
+            
+            // Ocultar página principal
+            document.querySelector('.home-page').style.display = 'none';
+            
+            // Ocultar otras páginas
+            document.querySelectorAll('.component-page, .action-page').forEach(page => {
+                page.classList.remove('active');
+            });
+            
+            // Buscar página existente o crear nueva
+            let componentPage = document.getElementById(`${componentKey}-page`);
+            if (!componentPage) {
+                componentPage = createComponentPage(componentKey, componentData);
+                document.body.appendChild(componentPage);
+            }
+            
+            // Mostrar página del componente
+            componentPage.classList.add('active');
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+
+        function createComponentPage(componentKey, data) {
+            const page = document.createElement('div');
+            page.id = `${componentKey}-page`;
+            page.className = 'component-page';
+            
+            // Datos de ejemplo para la matriz (simplificados para demostración)
+            const matrixExamples = getMatrixExamples(componentKey);
+            
+            page.innerHTML = `
+                <div class="component-header">
+                    <div class="container">
+                        <h1>${data.title}</h1>
+                        <p>${data.description}</p>
+                    </div>
+                </div>
+
+                <div class="component-content">
+                    <div class="container">
+                        <button class="back-button" onclick="showHome()">← Volver al Inicio</button>
+                        
+                        <div class="intro-section">
+                            <h2>Introducción</h2>
+                            <p>${data.intro}</p>
+                        </div>
+
+                        <div class="framework-section">
+                            <div class="framework-card">
+                                <h3>Marco Normativo</h3>
+                                <ul>
+                                    ${data.normative.map(item => `<li>${item}</li>`).join('')}
+                                </ul>
+                            </div>
+                            
+                            <div class="framework-card">
+                                <h3>Marco Político</h3>
+                                <ul>
+                                    ${data.political.map(item => `<li>${item}</li>`).join('')}
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="matrix-section">
+                    <div class="container">
+                        <h2 class="matrix-title">Matriz del Plan - ${data.title}</h2>
+                        <div class="matrix-table">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>Objetivo Estratégico</th>
+                                        <th>Objetivo Específico</th>
+                                        <th>Acciones</th>
+                                        <th>Indicadores de Resultado</th>
+                                        <th>Avances</th>
+                                        <th>Metas</th>
+                                        <th>Plazos</th>
+                                        <th>Responsables</th>
+                                        <th>Ampliar</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    ${matrixExamples.map(example => `
+                                        <tr>
+                                            <td>${example.strategicObjective}</td>
+                                            <td>${example.specificObjective}</td>
+                                            <td>${example.actions}</td>
+                                            <td>${example.resultIndicators}</td>
+                                            <td>${example.progress}</td>
+                                            <td>${example.goals}</td>
+                                            <td>${example.timeline}</td>
+                                            <td>${example.responsible}</td>
+                                            <td><button class="expand-button" onclick="showAction('${example.actionId}')">Ampliar</button></td>
+                                        </tr>
+                                    `).join('')}
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            `;
+            
+            return page;
+        }
+
+        function getMatrixExamples(componentKey) {
+            const examples = {
+                institucionalidad: [
+                    {
+                        strategicObjective: "Fortalecer la institucionalidad nacional en discapacidad",
+                        specificObjective: "Crear un sistema coordinado de políticas públicas en discapacidad",
+                        actions: "Desarrollo de protocolos de coordinación interinstitucional",
+                        resultIndicators: "Número de protocolos implementados",
+                        progress: "2 protocolos desarrollados",
+                        goals: "10 protocolos para 2027",
+                        timeline: "2025-2027",
+                        responsible: "CONADIS, Ministerios sectoriales",
+                        actionId: "protocolos-coordinacion"
+                    },
+                    {
+                        strategicObjective: "Mejorar la normativa en discapacidad",
+                        specificObjective: "Actualizar el marco legal según estándares internacionales",
+                        actions: "Revisión y actualización de leyes de discapacidad",
+                        resultIndicators: "Número de leyes actualizadas",
+                        progress: "1 ley en revisión",
+                        goals: "5 leyes actualizadas para 2028",
+                        timeline: "2025-2028",
+                        responsible: "Poder Legislativo, CONADIS",
+                        actionId: "actualizacion-leyes"
+                    },
+                    {
+                        strategicObjective: "Desarrollar capacidades institucionales",
+                        specificObjective: "Capacitar al 100% del personal público en derechos de discapacidad",
+                        actions: "Programa nacional de capacitación en discapacidad",
+                        resultIndicators: "Porcentaje de funcionarios capacitados",
+                        progress: "15% de funcionarios capacitados",
+                        goals: "100% para 2029",
+                        timeline: "2025-2029",
+                        responsible: "ONSC, CONADIS",
+                        actionId: "capacitacion-funcionarios"
+                    }
+                ],
+                datos: [
+                    {
+                        strategicObjective: "Crear sistema nacional de información en discapacidad",
+                        specificObjective: "Implementar registro único de personas con discapacidad",
+                        actions: "Desarrollo de plataforma digital integrada",
+                        resultIndicators: "Número de personas registradas",
+                        progress: "10,000 personas registradas",
+                        goals: "50,000 personas para 2027",
+                        timeline: "2025-2027",
+                        responsible: "AGESIC, CONADIS, MSP",
+                        actionId: "registro-unico"
+                    },
+                    {
+                        strategicObjective: "Mejorar estadísticas oficiales",
+                        specificObjective: "Incluir módulo de discapacidad en censos y encuestas",
+                        actions: "Diseño de instrumentos estadísticos inclusivos",
+                        resultIndicators: "Número de instrumentos con módulo discapacidad",
+                        progress: "2 instrumentos desarrollados",
+                        goals: "10 instrumentos para 2028",
+                        timeline: "2025-2028",
+                        responsible: "INE, CONADIS",
+                        actionId: "instrumentos-estadisticos"
+                    },
+                    {
+                        strategicObjective: "Promover uso de datos para políticas",
+                        specificObjective: "Crear observatorio nacional de discapacidad",
+                        actions: "Implementación de sistema de monitoreo y evaluación",
+                        resultIndicators: "Número de reportes publicados",
+                        progress: "1 reporte piloto",
+                        goals: "12 reportes anuales para 2027",
+                        timeline: "2025-2027",
+                        responsible: "CONADIS, universidades",
+                        actionId: "observatorio-discapacidad"
+                    }
+                ],
+                educacion: [
+                    {
+                        strategicObjective: "Garantizar educación inclusiva de calidad",
+                        specificObjective: "Reducir la exclusión educativa en 50%",
+                        actions: "Programa de apoyo a la inclusión educativa",
+                        resultIndicators: "Porcentaje de estudiantes con discapacidad incluidos",
+                        progress: "60% de estudiantes incluidos",
+                        goals: "95% para 2028",
+                        timeline: "2025-2028",
+                        responsible: "ANEP, CONADIS",
+                        actionId: "inclusion-educativa"
+                    },
+                    {
+                        strategicObjective: "Formar docentes en educación inclusiva",
+                        specificObjective: "Capacitar al 100% de docentes en inclusión",
+                        actions: "Programa nacional de formación docente",
+                        resultIndicators: "Número de docentes capacitados",
+                        progress: "5,000 docentes capacitados",
+                        goals: "25,000 docentes para 2029",
+                        timeline: "2025-2029",
+                        responsible: "CFE, CONADIS",
+                        actionId: "formacion-docentes"
+                    },
+                    {
+                        strategicObjective: "Desarrollar materiales educativos accesibles",
+                        specificObjective: "Crear biblioteca de recursos inclusivos",
+                        actions: "Producción de materiales en formatos accesibles",
+                        resultIndicators: "Número de materiales producidos",
+                        progress: "100 materiales disponibles",
+                        goals: "1,000 materiales para 2027",
+                        timeline: "2025-2027",
+                        responsible: "ANEP, organizaciones especializadas",
+                        actionId: "materiales-accesibles"
+                    }
+                ]
+            };
+            
+            // Devolver ejemplos o crear genéricos si no existen
+            return examples[componentKey] || [
+                {
+                    strategicObjective: `Objetivo estratégico principal de ${componentKey}`,
+                    specificObjective: `Objetivo específico measurable para ${componentKey}`,
+                    actions: `Acciones concretas para ${componentKey}`,
+                    resultIndicators: "Indicadores de resultado específicos",
+                    progress: "Avances actuales",
+                    goals: "Metas establecidas",
+                    timeline: "2025-2028",
+                    responsible: "Organismos responsables",
+                    actionId: `${componentKey}-accion-1`
+                }
+            ];
+        }
+
+        function showAction(actionId) {
+            const actionData = actionsData[actionId];
+            if (!actionData) {
+                // Crear datos genéricos si no existen
+                createGenericActionPage(actionId);
+                return;
+            }
+            
+            // Ocultar otras páginas
+            document.querySelectorAll('.component-page, .action-page').forEach(page => {
+                page.classList.remove('active');
+            });
+            
+            // Buscar página existente o crear nueva
+            let actionPage = document.getElementById(`${actionId}-page`);
+            if (!actionPage) {
+                actionPage = createActionPage(actionId, actionData);
+                document.body.appendChild(actionPage);
+            }
+            
+            // Mostrar página de acción
+            actionPage.classList.add('active');
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+
+        function createActionPage(actionId, data) {
+            const page = document.createElement('div');
+            page.id = `${actionId}-page`;
+            page.className = 'action-page';
+            
+            page.innerHTML = `
+                <div class="action-header">
+                    <div class="container">
+                        <h1>${data.title}</h1>
+                        <p>Detalle de implementación y seguimiento de la acción</p>
+                    </div>
+                </div>
+
+                <div class="action-content">
+                    <div class="container">
+                        <button class="back-button" onclick="history.back()">← Volver</button>
+                        
+                        <div class="action-details">
+                            <div class="detail-card">
+                                <h3>Objetivos de la Acción</h3>
+                                <ul>
+                                    ${data.objectives.map(obj => `<li>${obj}</li>`).join('')}
+                                </ul>
+                            </div>
+
+                            <div class="detail-card">
+                                <h3>Problema que Aborda</h3>
+                                <p>${data.problem}</p>
+                            </div>
+
+                            <div class="detail-card">
+                                <h3>Causas del Problema</h3>
+                                <ul>
+                                    ${data.causes.map(cause => `<li>${cause}</li>`).join('')}
+                                </ul>
+                            </div>
+
+                            <div class="detail-card">
+                                <h3>Consecuencias de No Abordar el Problema</h3>
+                                <ul>
+                                    ${data.consequences.map(cons => `<li>${cons}</li>`).join('')}
+                                </ul>
+                            </div>
+
+                            <div class="detail-card">
+                                <h3>Cronograma de Ejecución</h3>
+                                <ul>
+                                    ${data.timeline.map(time => `<li>${time}</li>`).join('')}
+                                </ul>
+                            </div>
+
+                            <div class="detail-card">
+                                <h3>Indicadores de Seguimiento</h3>
+                                <ul>
+                                    ${data.indicators.map(ind => `<li>${ind}</li>`).join('')}
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            `;
+            
+            return page;
+        }
+
+        function createGenericActionPage(actionId) {
+            const genericData = {
+                title: `Acción: ${actionId.replace(/-/g, ' ')}`,
+                objectives: [
+                    "Implementar la acción de manera efectiva",
+                    "Lograr los resultados esperados",
+                    "Monitorear el progreso continuamente",
+                    "Evaluar el impacto en la población objetivo"
+                ],
+                problem: "Esta acción aborda un problema específico identificado en el componente correspondiente del Plan Nacional.",
+                causes: [
+                    "Falta de recursos específicos",
+                    "Ausencia de coordinación institucional",
+                    "Limitada capacidad técnica",
+                    "Barreras normativas o administrativas"
+                ],
+                consequences: [
+                    "Perpetuación del problema identificado",
+                    "Limitación en el ejercicio de derechos",
+                    "Exclusión de grupos vulnerables",
+                    "Incumplimiento de objetivos del Plan"
+                ],
+                timeline: [
+                    "2025: Planificación y diseño",
+                    "2026-2027: Implementación progresiva",
+                    "2028: Evaluación y ajustes"
+                ],
+                indicators: [
+                    "Número de beneficiarios directos",
+                    "Porcentaje de cumplimiento de metas",
+                    "Nivel de satisfacción de usuarios",
+                    "Indicadores de impacto específicos"
+                ]
+            };
+            
+            showAction(actionId);
+            
+            // Crear página con datos genéricos
+            const actionPage = createActionPage(actionId, genericData);
+            document.body.appendChild(actionPage);
+            actionPage.classList.add('active');
+        }
+
+        function scrollToComponents() {
+            document.getElementById('components').scrollIntoView({ behavior: 'smooth' });
+        }
+
+        // Navegación con teclado para accesibilidad
+        document.addEventListener('keydown', function(event) {
+            if (event.key === 'Enter' || event.key === ' ') {
+                const target = event.target;
+                if (target.classList.contains('component-card')) {
+                    event.preventDefault();
+                    target.click();
+                }
+            }
+        });
+
+        // Animaciones al hacer scroll
+        function animateOnScroll() {
+            const cards = document.querySelectorAll('.component-card');
+            cards.forEach(card => {
+                const rect = card.getBoundingClientRect();
+                if (rect.top < window.innerHeight && rect.bottom > 0) {
+                    card.classList.add('fade-in');
+                }
+            });
+        }
+
+        window.addEventListener('scroll', animateOnScroll);
+        window.addEventListener('load', animateOnScroll);
+
+        // Inicialización
+        document.addEventListener('DOMContentLoaded', function() {
+            // Establecer foco inicial para lectores de pantalla
+            document.getElementById('main-content').focus();
+            
+            // Animar elementos visibles
+            animateOnScroll();
+        });
+    </script>
+</body>
+</html>
