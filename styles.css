@@ -1,3 +1,120 @@
+/* --- Botón ampliar información en monitoreo --- */
+.fila-boton td {
+    text-align: center;
+    padding-top: 1.2em;
+    padding-bottom: 1.2em;
+}
+.boton-ampliar {
+    display: block;
+    width: 100%;
+    background: #003da5;
+    color: #fff !important;
+    font-size: 1.1rem;
+    font-weight: 600;
+    padding: 0.9em 0;
+    border-radius: 32px;
+    text-decoration: none;
+    box-shadow: 0 2px 8px 0 rgba(0,0,0,0.08);
+    transition: background 0.2s, box-shadow 0.2s;
+    border: none;
+    outline: none;
+    text-align: center;
+}
+.boton-ampliar:focus, .boton-ampliar:hover {
+    background: #002b7f;
+    box-shadow: 0 4px 16px 0 rgba(0,61,165,0.12);
+    color: #fff;
+}
+/* --- Monitoreo del Plan Nacional: Lectura Fácil y Accesibilidad --- */
+.section-monitoreo {
+    background: #f6f9fc;
+    color: #111;
+    max-width: 900px;
+    width: 66vw;
+    margin: 2em auto;
+    padding: 2em 2em 2em 2em;
+    border-radius: 12px;
+    box-shadow: 0 2px 16px 0 rgba(0,0,0,0.06);
+}
+.section-monitoreo h2 {
+    font-size: 2rem;
+    color: #003da5;
+    margin-bottom: 1em;
+    font-weight: 700;
+    line-height: 1.2;
+}
+.section-monitoreo p {
+    font-size: 18px;
+    line-height: 1.7;
+    margin-bottom: 1.2em;
+}
+.table-responsive {
+    overflow-x: auto;
+    margin-top: 1.5em;
+}
+.tabla-monitoreo {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fff;
+    font-size: 17px;
+    line-height: 1.6;
+    margin-bottom: 1em;
+    box-shadow: 0 1px 8px 0 rgba(0,0,0,0.04);
+    border-radius: 8px;
+    overflow: hidden;
+}
+.tabla-monitoreo th,
+.tabla-monitoreo td {
+    padding: 1em 0.7em;
+    border-bottom: 1px solid #e3e3e3;
+    text-align: left;
+    vertical-align: top;
+}
+.tabla-monitoreo th {
+    background: #eaf2fb;
+    color: #003da5;
+    font-size: 1.1rem;
+    font-weight: 700;
+    border-bottom: 2px solid #003da5;
+}
+.tabla-monitoreo tr.estrategico th {
+    background: #dbeafe;
+    color: #003da5;
+    font-size: 1.15rem;
+    font-weight: 700;
+    border-bottom: 2px solid #003da5;
+}
+.tabla-monitoreo tr.especifico td {
+    background: #f6f9fc;
+    color: #003da5;
+    font-size: 1.05rem;
+    font-weight: 600;
+}
+.tabla-monitoreo tr.detalles td {
+    background: #fff;
+    color: #111;
+    font-size: 17px;
+    font-weight: 400;
+}
+.tabla-monitoreo strong {
+    color: #003da5;
+    font-weight: 700;
+}
+.tabla-monitoreo em {
+    color: #111;
+    font-style: italic;
+}
+@media (max-width: 900px) {
+    .section-monitoreo {
+        width: 98vw;
+        padding: 1em;
+    }
+    .tabla-monitoreo th,
+    .tabla-monitoreo td {
+        padding: 0.7em 0.3em;
+        font-size: 16px;
+    }
+}
 /* --- Institucionalidad: Lectura Fácil y Accesibilidad --- */
 .institucionalidad-section {
     background: #fff;
