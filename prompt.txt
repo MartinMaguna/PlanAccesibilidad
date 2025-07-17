@@ -1,0 +1,17 @@
+Aplica la estructura HTML y las clases CSS que identificaste previamente en el bloque de código de la sección “institucionalidad-section” al siguiente texto sobre Datos y Estadísticas. Mantén la coherencia semántica de etiquetas y la jerarquía visual:
+
+Usa <section> con las clases section-content y datos-estadisticas-section.
+
+Usa <article> con la clase datos-estadisticas-article.
+
+El título “Introducción” debe ir en un <p> con la clase section-lead y en negrita.
+
+Cada párrafo de contenido debe tener la clase section-paragraph.
+
+Si hay subtítulos, usa <h3> con clase section-subtitle.
+
+Si hay listas, aplica la clase section-list.
+
+Conserva el enfoque accesible incluyendo atributos como role="region" y aria-labelledby.
+
+Aquí está el texto a convertir:
