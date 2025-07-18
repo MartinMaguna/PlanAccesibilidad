@@ -1,3 +1,5 @@
+FORMATO DE TEXTO
+
 Aplica la estructura HTML y las clases CSS que identificaste previamente en el bloque de código de la sección “institucionalidad-section” al siguiente texto sobre Datos y Estadísticas. Mantén la coherencia semántica de etiquetas y la jerarquía visual:
 
 Usa <section> con las clases section-content y institucionalidad-section.
@@ -15,3 +17,100 @@ Si hay listas, aplica la clase section-list.
 Conserva el enfoque accesible incluyendo atributos como role="region" y aria-labelledby.
 
 Aquí está el texto a convertir:
+
+
+________________________________________________________________________________
+
+
+
+MATRIZ DEL PLAN 
+
+
+Basandote en la siguiente estructura:
+
+        <section class="section-monitoreo" role="region" aria-labelledby="monitoreo-title">
+            <div class="container">
+                <h2 id="monitoreo-title">Monitoreo del Plan Nacional</h2>
+                <p>Visualizá los avances del Plan por línea estratégica, objetivos y acciones concretas.</p>
+
+                <div class="table-responsive">
+                    <table class="tabla-monitoreo" role="table" aria-label="Matriz accesible de monitoreo">
+                        <tbody>
+                            <!-- Primer bloque -->
+                            <tr class="estrategico">
+                                <th colspan="9" scope="rowgroup">🎯 Objetivo Estratégico: Jerarquizar la
+                                    institucionalidad orientada a la construcción de políticas públicas en discapacidad
+                                    y accesibilidad.</th>
+                            </tr>
+                            <tr class="especifico">
+                                <td colspan="9">🔹 Objetivo Específico: Crear un organismo rector nacional de las
+                                    políticas en discapacidad.</td>
+                            </tr>
+                            <tr class="detalles">
+                                <td><strong>Acción:</strong> Creación del Instituto Nacional de los Derechos de las
+                                    Personas con Discapacidad (INADIS)</td>
+                                <td><strong>Meta:</strong> INADIS operativo al 2026</td>
+                                <td><strong>Indicador de Resultado:</strong> Presupuesto asignado</td>
+                                <td><strong>Indicador de Impacto:</strong> Coordinación interinstitucional efectiva</td>
+                                <td><strong>Plazo:</strong> 2025-2026</td>
+                                <td><strong>Responsables:</strong> MIDES, OPP</td>
+                                <td colspan="6">
+                                    <a href="accion-inadis.html" class="boton-ampliar" role="button"
+                                        aria-label="Ampliar información sobre INADIS">
+                                        Ampliar información
+                                    </a>
+                                </td>
+                            </tr>
+
+                            <!-- Segundo bloque -->
+                            <tr class="especifico">
+                                <td colspan="9">🔹 Objetivo Específico: Crear un ámbito a nivel supra ministerial para
+                                    la definición de políticas y articulación interinstitucional. </td>
+                            </tr>
+                            <tr class="detalles">
+                                <td><strong>Acción:</strong> Creación del Consejo Nacional de Políticas en Discapacidad
+                                </td>
+                                <td><strong>Meta:</strong> Consejo operativo al 2026</td>
+                                <td><strong>Indicador de Resultado:</strong> Presupuesto asignado</td>
+                                <td><strong>Indicador de Impacto:</strong> Coordinación interinstitucional efectiva</td>
+                                <td><strong>Plazo:</strong> 2025-2026</td>
+                                <td><strong>Responsables:</strong> MIDES, OPP</td>
+                                <td colspan="6">
+                                    <a href="accion-consejo.html" class="boton-ampliar" role="button"
+                                        aria-label="Ampliar información sobre el Consejo Nacional de Políticas en Discapacidad">
+                                        Ampliar información
+                                    </a>
+                                </td>
+                            </tr>
+
+
+                            <!-- Tercer bloque -->
+                            <tr class="especifico">
+                                <td colspan="9">🔹 Objetivo Específico: Fortalecer la participación de las personas con
+                                    discapacidad en las definiciones políticas. </td>
+                            </tr>
+                            <tr class="detalles">
+                                <td><strong>Acción:</strong> Creación de la Comisión Nacional de Participación de
+                                    Personas con Discapacidad</td>
+                                </td>
+                                <td><strong>Meta:</strong> Consejo operativo al 2026</td>
+                                <td><strong>Indicador de Resultado:</strong> Presupuesto asignado</td>
+                                <td><strong>Indicador de Impacto:</strong> Coordinación interinstitucional efectiva</td>
+                                <td><strong>Plazo:</strong> 2025-2026</td>
+                                <td><strong>Responsables:</strong> MIDES, OPP</td>
+                                <td colspan="6">
+                                    <a href="accion-consejo.html" class="boton-ampliar" role="button"
+                                        aria-label="Ampliar información sobre el Consejo Nacional de Políticas en Discapacidad">
+                                        Ampliar información
+                                    </a>
+                                </td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+
+Quiero que me des el codigo html listo para colocar el siguiente contenido en la matriz:

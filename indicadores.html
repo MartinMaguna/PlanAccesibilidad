@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Plan Nacional por la Accesibilidad y los Derechos de las Personas con Discapacidad</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
     <!-- Skip link para accesibilidad -->
     <a href="#main-content" class="skip-link">Saltar al contenido principal</a>
@@ -22,3 +24,119 @@
             </ul>
         </div>
     </nav>
+
+    <main id="main-content" class="home-page">
+
+
+        <!-- Sección Hero con fondo geométrico -->
+        <section class="hero" role="banner">
+            <div class="hero-svg-left datos-estadisticas-svg">
+                <svg viewBox="0 0 400 400" width="320" height="320" aria-hidden="true" focusable="false"
+                    class="hero-svg-bg">
+                    <!-- Fondo dividido en cuadrantes -->
+                    <rect x="0" y="0" width="200" height="200" fill="#f6e9d7" />
+                    <rect x="200" y="0" width="200" height="200" fill="#ffd24a" />
+                    <rect x="0" y="200" width="200" height="200" fill="#003da5" />
+                    <rect x="200" y="200" width="200" height="200" fill="#e74c3c" />
+
+                    <!-- Gráfico de barras estilizado -->
+                    <rect x="50" y="130" width="20" height="70" fill="#111" />
+                    <rect x="90" y="100" width="20" height="100" fill="#111" />
+                    <rect x="130" y="60" width="20" height="140" fill="#111" />
+
+                    <!-- Líneas verticales -->
+                    <line x1="50" y1="200" x2="150" y2="200" stroke="#111" stroke-width="2" />
+
+                    <!-- Círculos concéntricos simulando gráficos circulares -->
+                    <circle cx="300" cy="120" r="40" fill="#111" />
+                    <circle cx="300" cy="120" r="30" fill="#ffd24a" />
+                    <circle cx="300" cy="120" r="20" fill="#f6e9d7" />
+                    <circle cx="300" cy="120" r="10" fill="#003da5" />
+
+                    <!-- Grilla de puntos / estadísticas -->
+                    <circle cx="240" cy="250" r="6" fill="#111" />
+                    <circle cx="270" cy="250" r="6" fill="#111" />
+                    <circle cx="300" cy="250" r="6" fill="#111" />
+                    <circle cx="330" cy="250" r="6" fill="#111" />
+
+                    <circle cx="240" cy="280" r="6" fill="#111" />
+                    <circle cx="270" cy="280" r="6" fill="#111" />
+                    <circle cx="300" cy="280" r="6" fill="#111" />
+                    <circle cx="330" cy="280" r="6" fill="#111" />
+
+                    <!-- Detalles estéticos / diagonales -->
+                    <path d="M0,400 L100,300" stroke="#111" stroke-width="4" />
+                    <path d="M400,0 L300,100" stroke="#111" stroke-width="4" />
+                </svg>
+
+
+            </div>
+
+            <div class="hero-content fade-in hero-left-text">
+                <h1>
+                    Indicadores
+                </h1>
+            </div>
+        </section>
+
+
+
+        <section class="iconos-section">
+            <h2 class="section-title">Institucionalidad</h2>
+
+
+            <svg viewBox="0 0 200 200" width="160" height="160" aria-hidden="true" focusable="false"
+                class="icono-institucionalidad">
+                <!-- Base del edificio -->
+                <rect x="20" y="140" width="160" height="20" fill="#111" />
+
+                <!-- Columnas -->
+                <rect x="30" y="100" width="10" height="40" fill="#003da5" />
+                <rect x="60" y="100" width="10" height="40" fill="#ffd24a" />
+                <rect x="90" y="100" width="10" height="40" fill="#e74c3c" />
+                <rect x="120" y="100" width="10" height="40" fill="#003da5" />
+                <rect x="150" y="100" width="10" height="40" fill="#ffd24a" />
+
+                <!-- Entablamento -->
+                <rect x="20" y="90" width="160" height="10" fill="#111" />
+
+                <!-- Escalones -->
+                <rect x="10" y="160" width="180" height="10" fill="#f6e9d7" />
+                <rect x="0" y="170" width="200" height="10" fill="#e74c3c" />
+
+                <!-- Cúpula triangular -->
+                <polygon points="100,20 180,90 20,90" fill="#003da5" />
+
+                <!-- Detalle circular central -->
+                <circle cx="100" cy="60" r="10" fill="#ffd24a" />
+            </svg>
+
+        </section>
+
+        
+            <svg viewBox="0 0 200 200" width="160" height="160" aria-hidden="true" focusable="false"
+                class="icono-accesibilidad">
+                <!-- Rueda (círculo grande) -->
+                <circle cx="130" cy="150" r="30" fill="#003da5" />
+
+                <!-- Cabeza (círculo pequeño) -->
+                <circle cx="70" cy="40" r="12" fill="#ffd24a" />
+
+                <!-- Tronco -->
+                <rect x="65" y="50" width="10" height="40" fill="#111" />
+
+                <!-- Brazo extendido -->
+                <rect x="70" y="70" width="50" height="10" fill="#e74c3c" />
+
+                <!-- Pierna (línea diagonal) -->
+                <path d="M70,90 L120,130" stroke="#111" stroke-width="10" />
+
+                <!-- Eje de rueda o conexión -->
+                <circle cx="130" cy="150" r="6" fill="#ffd24a" />
+
+                <!-- Fondo circular suave (opcional) -->
+                <circle cx="100" cy="100" r="95" fill="none" stroke="#f6e9d7" stroke-width="6" />
+            </svg>
+    </main>
+    <body>
+</html>
